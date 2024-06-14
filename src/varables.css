@@ -1,0 +1,23 @@
+:root {
+    --uppercase: uppercase;
+    --font-small: 11px;
+    --font-medium: 12px;
+    --font-medium-large: 14px;
+    --font-large: 16px;
+    --line-height: 1.4em;
+    --font-weight-bold: 600;
+    --letter-spacing: 0.05em;
+    --grey50: #9BA1A9;
+    --grey70: #737D85;
+    --grey100: #37474F;
+    --grey-border-100: 1px solid var(--grey100);
+    --grey-border-70: 1px solid var(--grey70);
+    --grey-border-50: 1px solid var(--grey50);
+    --no-border: none;
+    --border-radius-small: 3px;
+    --border-radius-large: 20px;
+    --border-radius-extra-small: 2px;
+    --box-shadow-1: inset 0 7px 9px -7px rgba(0,0,0, 0.7);
+    --box-shadow-2: 0 1px 3px rgba(0,0,0, 0.12), 0 1px 3px rgba(0,0,0, 0.24);
+    --box-shadow-3: 0 3px 6px rgba(0,0,0, 0.16), 0 3px 6px rgba(0,0,0, 0.23);
+}    
