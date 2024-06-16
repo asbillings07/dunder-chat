@@ -1,10 +1,9 @@
 <script>
 	export let placeholder = '';
 	export let label = null;
-	export let type = 'text';
 	export let domID = null;
 	export let disabled = false;
-	export let name = null;
+    export let value = '';
 	export let onChange = () => false;
 </script>
 
@@ -16,8 +15,7 @@
 	<input
 		class="text-input"
 		id={domID}
-		{name}
-		{type}
+		bind:value={value}
 		{placeholder}
 		on:change={onChange}
 		{disabled}

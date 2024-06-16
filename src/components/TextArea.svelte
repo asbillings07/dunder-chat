@@ -18,11 +18,11 @@
 	{/if}
 
 	<textarea
+        class="textarea"
 		id={domID}
 		{name}
 		{rows}
-		{value}
-        class="textarea"
+		bind:value={value}
 		{cols}
 		on:change={onChange}
 		{placeholder}

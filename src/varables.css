@@ -1,4 +1,15 @@
 :root {
+    --purple: #912381;
+    --red: #EA2634;
+    --orange: #F95535;
+    --very-light-orange: rgba(249, 85, 53, 0.2);
+    --light-orange: rgba(249, 85, 53, 0.5);
+    --pink: #CD186D;
+    --white: #FFF;
+    --black: #1E1E1E;
+    --grey: #444444;
+    --light-grey: rgba(0, 0, 0, 0.05);
+    --light-grey-2: #C3C4C7;
     --uppercase: uppercase;
     --font-small: 11px;
     --font-medium: 12px;

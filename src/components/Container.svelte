@@ -1,9 +1,9 @@
 <script lang="ts">
 	type visiblity = 'visible' | 'hidden';
-	type componentType = 'messages' | 'notes' | 'interactions';
+	type componentType = 'messages' | 'notes' | 'posts' | '';
 
 	export let classes = '';
-	export let title: componentType = 'interactions';
+	export let title: componentType = '';
 	export let flexGrow = 0;
 	export let visible: visiblity = 'visible';
 
@@ -28,7 +28,8 @@
 		position: relative;
 	}
     .title {
-        font-weight: 500;
+        font-weight: bold;
+		text-transform: capitalize;
     }
 	.notes_container {
 		position: relative;

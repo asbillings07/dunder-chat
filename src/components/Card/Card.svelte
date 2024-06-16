@@ -1,11 +1,12 @@
 <script>
   export let classes = '';
+  export let onClick = () => {}
 
   // Combining classes
   $: containerClass = `card container ${classes}`;
 </script>
 
-<div class={containerClass} {...$$restProps}>
+<div on:click={onClick} class={containerClass} {...$$restProps} role="button" tabindex="0">
   <slot></slot>
 </div>
 
